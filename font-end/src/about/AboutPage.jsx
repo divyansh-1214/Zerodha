@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from './Hero';
-
-function PricingPage() {
+import Team from './Team';
+function AboutPage() {
     return (
       <>
         <Hero />
@@ -10,4 +10,4 @@ function PricingPage() {
     );
   }
   
-  export default PricingPage;
+  export default AboutPage;
