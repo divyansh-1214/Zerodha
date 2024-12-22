@@ -11,7 +11,7 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-5">
                             <li class="nav-item ">
-                                <Link class="nav-link active" aria-current="page" to="/signup">SignUp</Link>
+                                <Link class="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li class="nav-item">
                                 <Link class="nav-link active" to="/about">About</Link>
@@ -20,10 +20,7 @@ function Navbar() {
                                 <Link class="nav-link active" to="/pricing">Pricing</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link active" to="/support">Support</Link>
-                            </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" to="/link">Link</Link>
+                                <Link class="nav-link active" to="/product">product</Link>
                             </li>
                         </ul>
                     </div>
