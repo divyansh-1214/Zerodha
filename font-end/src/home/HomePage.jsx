@@ -12,7 +12,6 @@ function HomePage() {
         <div>
             <Navbar />
             <Hero />
-            <Awards />
             <State />
             <Pricing />
             <Education />

@@ -2,7 +2,7 @@ import React from 'react';
 function State() {
     return ( 
         <div className='cantainer'>
-            <div className='row'>
+            <div className='row p-5 md-5 '>
                 <div className="col-6 p-5">
                 <h1 className="fs-2 mb-5">Trust with confidence</h1>
                 <h2 className="fs-4">Customer-first always</h2>
@@ -27,10 +27,10 @@ function State() {
                     money.
                 </p>
                 </div>
-                <div className='col-5'>
+                <div className='col-5 p-5'>
                     <img src="public/ecosystem.png" style={{width:"75%"}} alt="" />
                     <div className="text-center">
-                    <a href="" className="mx-5" style={{ textDecoration: "none" }}>
+                    <a href="" className="mx-5 mt-5" style={{ textDecoration: "none" }}>
                     Explore our products{" "}
                     <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </a>
@@ -39,6 +39,10 @@ function State() {
                     <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </a>
                 </div>
+
+                </div>
+                <div className='flex-row' align='center'>
+                <img src="public/pressLogos.png" style={{width:'50%', }} />
                 </div>
             </div>
         </div>
